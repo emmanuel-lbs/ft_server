@@ -1,0 +1,8 @@
+.*.sw*
+*a.out*
+*Tester*
+*.a
+*.o
+.*.sw*
+src/.*.sw*
+
