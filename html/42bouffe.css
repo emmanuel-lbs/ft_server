@@ -1,0 +1,288 @@
+
+
+html, body {
+	margin: 0; padding: 0;
+	height: 160%;
+	background-color:white;
+}
+
+#fond1{background-image:url(./kebab.jpg);
+	background-size: 90% 90%;
+	background-position:center top;
+	background-repeat:no-repeat;
+	background-attachment:fixed;
+}
+
+#fond2 {
+background-color:white ;
+	opacity:90%;
+}
+
+
+
+header {
+	position: fixed;
+	width: 100%;
+	height: 7rem;
+	z-index: 99;
+}
+
+
+
+
+
+.table0{
+width:100%;
+	border: 1px solid white ;
+	
+}
+.table1 {
+	background:#0C3C60;
+	text-align:center ;
+	border:1px solid white;
+	width:80%;
+	
+}
+
+
+.table2 {
+	text-align:center ;
+	width: 60%;
+	border: 0px solid  ;
+	 background: white
+		 
+	
+	height:500px;
+}
+
+.table3 {
+	text-align:center ;
+	width: 100%;
+	border: px solid red ;
+	 background: #0C3C60;
+	color:#d1e0eb;
+	height:500px;
+	border-radius: 30px  ;
+border-spacing:0;
+}
+.table4 {
+
+	text-align:center ;
+	 width:50%;
+	 border: 0px solid white ;
+	 background: #6ea4ca;
+	 height:40px;
+}
+.table5 {
+	background:#C0C0C0;
+	 
+	border:1px solid white;
+	width:80%;
+	border-radius: 30px  ;
+border-spacing:0;
+}
+
+.table6 {
+	width:90%;
+	background-color:#F4C430 ;
+	border-radius: 30px  ;
+border-spacing:0;
+	
+}
+.table7 {
+	background:#F4C430;
+	text-align:center ;
+	border:1px solid black;
+	width:80%;
+}
+
+.table8 {
+	background:#1FA055  ;
+	text-align:center ;
+	border:1px solid black;
+	width:80%;
+	
+}
+
+.table9 {
+	background:#C0C0C0  ;
+	text-align:center ;
+	border:1px solid black;
+	width:80%;
+}
+.tablevert {background:#1FA055 ;
+	border-radius: 30px  ;
+border-spacing:0;
+}
+
+.tablefin{
+
+	width:100%;
+	background:#0C3C60;
+	
+}
+
+.V{
+text-decoration: underline green 3px;
+}
+
+
+a{ color : white ; text-decoration: none;}
+a:hover { color : #6ea4ca ; text-decoration: none;}
+a:visited {color: white ;text-decoration: none;}
+a:visited:hover {color: #6ea4ca ;text-decoration: none;}
+
+
+
+
+
+
+section {
+        margin-bottom: 5%;
+        background: gray;
+}
+  
+.white {
+	color : white ;
+	
+}
+.titre {
+	text-align:center;
+	font-size:400%;
+}
+
+.gras {
+	font-weight : 800 ;
+	text-align:center;
+	font-size:400%;
+}
+
+.lien
+{ color : white;}
+
+.lien:hover
+{color : cyan;}
+
+
+.p1 {
+text-align:center ;
+	font-size:80%;
+}
+	
+.titre1{
+font-weight : 600 ;
+	font-size:150%;
+}
+
+
+
+.savoir{
+	text-decoration: none;
+	color:white;
+}
+
+.savoir:hover {
+ 
+	color:#0C3C60;
+	text-decoration: none;
+	
+}
+
+
+
+/*css formulaire de contact */
+
+
+form {
+  /* Uniquement centrer le formulaire sur la page */
+  margin: 0 auto;
+  width: 400px;
+  /* Encadré pour voir les limites du formulaire */
+  padding: 1em;
+  border: 1px solid #CCC;
+  border-radius: 1em;
+}
+
+form div + div {
+  margin-top: 1em;
+}
+
+label {
+  /* Pour être sûrs que toutes les étiquettes ont même taille et sont correctement alignées */
+  display: inline-block;
+  width: 90px;
+  text-align: right;
+}
+
+input, textarea {
+  /* Pour s'assurer que tous les champs texte ont la même police.
+     Par défaut, les textarea ont une police monospace */
+  font: 1em sans-serif;
+
+  /* Pour que tous les champs texte aient la même dimension */
+  width: 300px;
+  box-sizing: border-box;
+
+  /* Pour harmoniser le look & feel des bordures des champs texte */
+  border: 1px solid #999;
+}
+
+input:focus, textarea:focus {
+  /* Pour souligner légèrement les éléments actifs */
+  border-color: #000;
+}
+
+textarea {
+  /* Pour aligner les champs texte multi‑ligne avec leur étiquette */
+  vertical-align: top;
+
+  /* Pour donner assez de place pour écrire du texte */
+  height: 5em;
+}
+
+.button {
+  /* Pour placer le bouton à la même position que les champs texte */
+  padding-left: 90px; /* même taille que les étiquettes */
+}
+
+button {
+  /* Cette marge supplémentaire représente grosso modo le même espace que celui
+     entre les étiquettes et les champs texte */
+  margin-left: .5em;
+}
+
+
+
+
+
+            /** css camille **/
+			
+			
+.camT{ 
+ color: #F4C430;
+ font-size: 300% ;
+ font-family: Cambria ;
+ text-align:center;
+ }
+
+ h4 {
+	 font-size: 110%;
+	 font-family: Cambria;
+ }
+ 
+  /** css tatane **/
+  
+  
+ h2 {
+   font-weight: bold;
+   text-decoration: underline;
+
+}
+
+.center {
+
+text-align: center;
+
+}
+
+
